@@ -2,9 +2,9 @@
 
 VBBMM performs variational bayes binomial mixture model clustering on genome sequencing allelic count data in n-dimensions.
 
-# How to Install #
+# Dependencies #
 
-VBBMM is a python script and thus requires no installation. However, it does depend on [PyVMP](https://bitbucket.org/aroth85/pyvmp/wiki/Home). Your python will need to have the PyVMP library installed in order to run VBBMM.
+* [PyVMP](https://bitbucket.org/aroth85/pyvmp/wiki/Home)
 
 # Input File
 
