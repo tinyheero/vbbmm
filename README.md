@@ -1,15 +1,12 @@
 # About VBBMM #
-***
 
 VBBMM performs variational bayes binomial mixture model clustering on genome sequencing allelic count data in n-dimensions.
 
 # How to Install #
-***
 
 VBBMM is a python script and thus requires no installation. However, it does depend on [PyVMP](https://bitbucket.org/aroth85/pyvmp/wiki/Home). Your python will need to have the PyVMP library installed in order to run VBBMM.
 
 # Input File
-***
 
 VBBMM takes a tsv input file containing the following required columns:
 
@@ -21,13 +18,10 @@ VBBMM takes a tsv input file containing the following required columns:
 To add additional dimensions to cluster on, you simply have to add a Ti_TR and a Ti_TA column for each new ith dimension (e.g. T2_TR, T2_TA)
 
 # How to Run
-***
 
 To run VBBMM, for instance on 2 dimensions, you can use the following command:
 
-```
-#!bash
-
+```bash
 python vbbmm.py --in_file in.tsv --out_file out.tsv --num_samples 2
 ```
 
@@ -39,7 +33,6 @@ Other optional parameters to consider are:
 * --max_iters: Maximum number of VB iterations to do. Default is 100.
 
 # Output
-***
 
 The output of VBBMM will be a tsv file with:
 
